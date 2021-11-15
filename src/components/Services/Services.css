@@ -1,6 +1,6 @@
 .Service-area {
 	padding: 90px 0;
-	background:rgb(244, 247, 254) !important;
+	background: rgb(255 255 255) !important;
 }
 .title h1 {
 	font-size: 45px;
@@ -9,8 +9,8 @@
 	color:#0b114a;
 }
 .title p {
-	color: #198754;
-	font-size: 20px;
+    color: #009af5;
+    font-size: 36px;
 }
 .single-service-area {
 	background: rgba(255, 255, 255, 0.1);
@@ -52,14 +52,13 @@
 	margin-right: 6px;
 }
 .single-service-area button {
-	background: transparent !important;
-	border: 0;
-	color: #0b114a;
-	font-size: 16px;
-	margin-top: 9px;
-	border:1px solid #0b114a;
-	padding:9px 20px;
-	border-radius: 6px;
-	margin-left:20px;
-	margin-bottom:20px;
+    font-size: 16px;
+    margin-top: 9px;
+    border: 1px solid #02aff0;
+    padding: 9px 20px;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: #02aff0 !important;
+    color: #FFF;
 }

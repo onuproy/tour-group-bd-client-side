@@ -17,7 +17,6 @@ const HomeService = () => {
                     <div className="col-lg-12">
                         <div className="title">
                             <p>Our Services</p>
-                            <h1>What We’re offering</h1>
                         </div>
                     </div>
                     {

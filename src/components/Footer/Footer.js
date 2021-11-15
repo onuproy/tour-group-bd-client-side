@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-12">
                         <div className="copyright-area">
-                            <p>© 2021 All Rights Reserved</p>
+                            <p>© 2021 All Rights Reserved Tour Group BD</p>
                         </div>
                     </div>
                 </div>

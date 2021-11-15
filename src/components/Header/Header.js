@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="logo-area">
-                            <Link to="/home">TravelIX</Link>
+                            <Link to="/home">Tour Group BD</Link>
                         </div>
                     </div>
                     <div className="col-md-4">
