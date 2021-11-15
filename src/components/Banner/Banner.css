@@ -1,0 +1,60 @@
+.banner-area {
+	padding: 140px 0 140px 0;
+	background: url(./../../banner.webp);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	text-align:center;
+}
+.content-area {
+	padding-top: 115px;
+}
+.doctor-image {
+	margin-right: -90px;
+}
+.doctor-image img {
+	width: 100%;
+}
+.about-area {
+	padding: 60px 0;
+}
+.content-area h2 {
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+    margin-bottom:20px;
+	color:#FFF;
+	font-style:italic;
+}
+.content-area {
+	text-align: center;
+}
+.about-area .row {
+	align-items: center;
+}
+.content-area p {
+	font-size: 20px;
+	text-align: center;
+	color:#FFF
+}
+.content-area a {
+	background: #0b114a;
+	border: 0;
+	color: #FFF !important;
+	padding: 10px 30px;
+	border-radius: 9px;
+	margin-top: 20px;
+	border:1px solid #0b114a !important;
+}
+a{
+	outline:none !important;
+}
+a:focus{
+	box-shadow: none !important;
+}
+.button-area {
+	margin-top: 20px;
+}
+.button-area a {
+	padding: 15px 30px;
+}

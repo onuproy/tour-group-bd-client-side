@@ -1,0 +1,38 @@
+[
+    {
+        "serviceName": "island dream",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/place-image/island-dream.webp",
+        "price" : "2000"
+    },
+    {
+        "serviceName": "Miami Beach",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/place-image/miami-beach.webp",
+        "price" : "3000"
+    },
+    {
+        "serviceName": "Banaue Rice Terraces",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/place-image/banaue-Rice-terraces.webp",
+        "price" : "2000"
+    },
+    {
+        "serviceName": "Korola Megna",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/place-image/korola-megna.webp",
+        "price" : "2000"
+    },
+    {
+        "serviceName": "London",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/place-image/london.webp",
+        "price" : "1500"
+    },
+    {
+        "serviceName": "Saintmartine Iceland",
+        "shortdescription": "Forth unto night their foubehold night theiearth .",
+        "img": "http://shemolroy.com/place-image/saintmartine-iceland.webp",
+        "price" : "3000"
+    }
+]
