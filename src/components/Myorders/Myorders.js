@@ -6,7 +6,7 @@ const Myorders = () => {
     const [orders,setOrder] = useState([]);
     const {user,logout} = useAuth();
     useEffect(()=>{
-        fetch(`http://localhost:5000/myorders?email=${user.email}`)
+        fetch(`https://shielded-river-31281.herokuapp.com/myorders?email=${user.email}`)
         .then(res => res.json())
         .then(data => setOrder(data))
     },[])
@@ -14,7 +14,7 @@ const Myorders = () => {
     const hangleDeleteUser = id =>{
         const proceed = window.confirm('Are You Delete it?');
         if(proceed){
-            const url= `http://localhost:5000/orders/${id}`;
+            const url= `https://shielded-river-31281.herokuapp.com/orders/${id}`;
             fetch(url,{
                 method: 'DELETE',
             })

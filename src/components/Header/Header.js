@@ -10,12 +10,12 @@ const Header = () => {
         <header className="header-area">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-3">
                         <div className="logo-area">
                             <Link to="/home">Tour Group BD</Link>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-5">
                         <div className="menubar-area">
                             <ul>
                                 <li><Link to="/home">Home</Link></li>

@@ -4,14 +4,14 @@ import { useEffect, useState } from 'react';
 const Allorder = () => {
     const [orders,setOrder] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/orders')
+        fetch('https://shielded-river-31281.herokuapp.com/orders')
         .then(res => res.json())
         .then(data => setOrder(data))
     },[])
     const hangleDeleteUser = id =>{
         const proceed = window.confirm('Are You Delete it?');
         if(proceed){
-            const url= `http://localhost:5000/orders/${id}`;
+            const url= `https://shielded-river-31281.herokuapp.com/orders/${id}`;
             fetch(url,{
                 method: 'DELETE',
             })

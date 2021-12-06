@@ -14,7 +14,7 @@ const Placeorder = () => {
     const [details, setDetails] = useState([]);
     const [singledetails,setSingleDetails] = useState({});
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://shielded-river-31281.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setDetails(data))
     },[])
@@ -32,7 +32,7 @@ const Placeorder = () => {
         const order ={name:name,email:email,ordername:orderName,address:address,city:city,phone:phone}
         console.log(order)
 
-        fetch('http://localhost:5000/orders',{
+        fetch('https://shielded-river-31281.herokuapp.com/orders',{
             method:'POST',
             headers:{
                 'content-type' :'application/json'

@@ -14,7 +14,7 @@ const Addnewservices = () => {
         const price = priceRef.current.value;
         const services ={serviceName:serviceName,shortdescription:shortdescription,img:imageurl,price:price}
 
-        fetch('http://localhost:5000/services',{
+        fetch('https://shielded-river-31281.herokuapp.com/services',{
             method:'POST',
             headers:{
                 'content-type' :'application/json'
